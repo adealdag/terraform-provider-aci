@@ -6,8 +6,8 @@ import (
 	
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
-	"github.com/ciscoecosystem/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
 	
 )
 

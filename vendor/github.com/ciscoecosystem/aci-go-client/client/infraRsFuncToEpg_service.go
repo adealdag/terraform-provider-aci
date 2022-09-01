@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateEPGsUsingFunction(tDn string, access_generic string, attachable_access_entity_profile string, description string, infraRsFuncToEpgattr models.EPGsUsingFunctionAttributes) (*models.EPGsUsingFunction, error) {

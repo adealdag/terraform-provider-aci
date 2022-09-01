@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateVSANPool(allocMode string, name string, description string, fvnsVsanInstPattr models.VSANPoolAttributes) (*models.VSANPool, error) {

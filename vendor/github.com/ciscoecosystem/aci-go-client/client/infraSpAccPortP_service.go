@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateSpineInterfaceProfile(name string, description string, infraSpAccPortPattr models.SpineInterfaceProfileAttributes) (*models.SpineInterfaceProfile, error) {

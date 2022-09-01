@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/container"
 )
 
 const BgpbestpathctrlpolClassName = "bgpBestPathCtrlPol"

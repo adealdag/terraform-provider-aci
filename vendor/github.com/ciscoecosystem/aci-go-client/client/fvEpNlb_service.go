@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateNlbEndpoint(parent_dn string, description string, nameAlias string, fvEpNlbAttr models.NlbEndpointAttributes) (*models.NlbEndpoint, error) {

@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCtrlrMaintP(description string, maintCtrlrMaintPAttr models.CtrlrMaintPAttributes) (*models.CtrlrMaintP, error) {

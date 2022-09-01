@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) createFabricBlkParentDn(parentMOType string, parentMOName string) (string, error) {

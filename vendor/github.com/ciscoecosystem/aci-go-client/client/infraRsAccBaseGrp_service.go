@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateAccessAccessGroup(access_port_selector_type string, access_port_selector string, leaf_interface_profile string, infraRsAccBaseGrpattr models.AccessAccessGroupAttributes) (*models.AccessAccessGroup, error) {

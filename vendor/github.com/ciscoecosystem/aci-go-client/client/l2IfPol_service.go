@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateL2InterfacePolicy(name string, description string, l2IfPolattr models.L2InterfacePolicyAttributes) (*models.L2InterfacePolicy, error) {

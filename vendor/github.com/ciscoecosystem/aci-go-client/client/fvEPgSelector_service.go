@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateEndpointSecurityGroupEPgSelector(matchEpgDn string, endpoint_security_group string, application_profile string, tenant string, description string, nameAlias string, fvEPgSelectorAttr models.EndpointSecurityGroupEPgSelectorAttributes) (*models.EndpointSecurityGroupEPgSelector, error) {

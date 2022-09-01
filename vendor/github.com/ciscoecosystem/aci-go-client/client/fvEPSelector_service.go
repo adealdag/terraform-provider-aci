@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateEndpointSecurityGroupSelector(matchExpression string, endpoint_security_group string, application_profile string, tenant string, description string, nameAlias string, fvEPSelectorAttr models.EndpointSecurityGroupSelectorAttributes) (*models.EndpointSecurityGroupSelector, error) {

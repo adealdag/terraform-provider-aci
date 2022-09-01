@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) ReadTopologyFabricNode(pod int, node int) (*models.TopologyFabricNode, error) {

@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCloudProvidersRegion(name string, cloud_provider_profile_vendor string, description string, cloudRegionattr models.CloudProvidersRegionAttributes) (*models.CloudProvidersRegion, error) {

@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateRanges(to string, _from string, vlan_pool_allocMode string, vlan_pool string, description string, fvnsEncapBlkattr models.RangesAttributes) (*models.Ranges, error) {

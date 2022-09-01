@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateSPANSourceGroup(name string, tenant string, description string, spanSrcGrpattr models.SPANSourceGroupAttributes) (*models.SPANSourceGroup, error) {

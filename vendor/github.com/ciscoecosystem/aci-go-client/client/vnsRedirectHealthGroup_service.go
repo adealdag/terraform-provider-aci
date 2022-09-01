@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateL4L7RedirectHealthGroup(name string, tenant string, description string, nameAlias string, vnsRedirectHealthGroupAttr models.L4L7RedirectHealthGroupAttributes) (*models.L4L7RedirectHealthGroup, error) {

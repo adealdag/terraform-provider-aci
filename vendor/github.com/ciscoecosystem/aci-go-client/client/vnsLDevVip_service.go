@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateL4ToL7Devices(name string, tenant string, nameAlias string, vnsLDevVipAttr models.L4ToL7DevicesAttributes) (*models.L4ToL7Devices, error) {

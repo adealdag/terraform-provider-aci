@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCDPInterfacePolicy(name string, description string, cdpIfPolattr models.CDPInterfacePolicyAttributes) (*models.CDPInterfacePolicy, error) {

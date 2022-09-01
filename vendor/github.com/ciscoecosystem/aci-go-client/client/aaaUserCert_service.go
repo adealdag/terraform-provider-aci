@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateX509Certificate(name string, local_user string, description string, aaaUserCertattr models.X509CertificateAttributes) (*models.X509Certificate, error) {

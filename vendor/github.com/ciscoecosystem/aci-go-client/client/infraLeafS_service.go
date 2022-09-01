@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateSwitchAssociation(switch_association_type string, name string, leaf_profile string, description string, infraLeafSattr models.SwitchAssociationAttributes) (*models.SwitchAssociation, error) {

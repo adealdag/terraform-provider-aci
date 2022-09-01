@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreatePODMaintenanceGroup(name string, description string, maintMaintGrpattr models.PODMaintenanceGroupAttributes) (*models.PODMaintenanceGroup, error) {

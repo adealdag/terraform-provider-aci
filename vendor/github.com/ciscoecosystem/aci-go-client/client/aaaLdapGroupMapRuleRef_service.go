@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateLDAPGroupMapruleref(name string, ldap_group_map string, description string, nameAlias string, aaaLdapGroupMapRuleRefAttr models.LDAPGroupMaprulerefAttributes) (*models.LDAPGroupMapruleref, error) {

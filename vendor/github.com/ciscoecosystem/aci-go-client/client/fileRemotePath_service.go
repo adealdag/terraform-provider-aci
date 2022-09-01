@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateRemotePathofaFile(name string, description string, nameAlias string, fileRemotePathAttr models.RemotePathofaFileAttributes) (*models.RemotePathofaFile, error) {

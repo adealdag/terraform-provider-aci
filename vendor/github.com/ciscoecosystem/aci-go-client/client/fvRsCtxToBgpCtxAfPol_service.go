@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateBGPAddressFamilyContextPolicyRelationship(af string, tnBgpCtxAfPolName string, vrf string, tenant string, fvRsCtxToBgpCtxAfPolAttr models.BGPAddressFamilyContextPolicyRelationshipAttributes) (*models.BGPAddressFamilyContextPolicyRelationship, error) {

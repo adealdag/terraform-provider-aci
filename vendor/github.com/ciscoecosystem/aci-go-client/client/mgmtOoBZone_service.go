@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateOOBManagedNodesZone(managed_node_connectivity_group string, description string, nameAlias string, mgmtOoBZoneAttr models.OOBManagedNodesZoneAttributes) (*models.OOBManagedNodesZone, error) {

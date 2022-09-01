@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateErrorDisabledRecoveryEvent(event string, error_disabled_recovery_policy string, description string, nameAlias string, edrEventPAttr models.ErrorDisabledRecoveryEventAttributes) (*models.ErrorDisabledRecoveryEvent, error) {

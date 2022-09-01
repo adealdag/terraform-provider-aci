@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateFunctionConnector(name string, function_node string, l4_l7_service_graph_template string, tenant string, description string, vnsAbsFuncConnattr models.FunctionConnectorAttributes) (*models.FunctionConnector, error) {

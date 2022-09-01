@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateRtctrlSetAddComm(community string, action_rule_profile string, tenant string, description string, nameAlias string, rtctrlSetAddCommAttr models.RtctrlSetAddCommAttributes) (*models.RtctrlSetAddComm, error) {

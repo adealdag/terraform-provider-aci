@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCloudVpnGateway(name string, cloudContextProfile string, tenant string, description string, cloudRouterPattr models.CloudVpnGatewayAttributes) (*models.CloudVpnGateway, error) {

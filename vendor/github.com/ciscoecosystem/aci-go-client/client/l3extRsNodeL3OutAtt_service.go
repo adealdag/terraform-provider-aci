@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateFabricNode(tDn string, logical_node_profile string, l3_outside string, tenant string, l3extRsNodeL3OutAttattr models.FabricNodeAttributes) (*models.FabricNode, error) {

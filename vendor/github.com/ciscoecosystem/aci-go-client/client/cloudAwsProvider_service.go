@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCloudAWSProvider(tenant string, description string, cloudAwsProviderattr models.CloudAWSProviderAttributes) (*models.CloudAWSProvider, error) {

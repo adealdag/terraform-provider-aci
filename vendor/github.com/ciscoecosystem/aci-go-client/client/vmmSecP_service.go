@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateVMMSecurityPolicy(domain_tDn string, application_epg string, application_profile string, tenant string, description string, vmmSecPattr models.VMMSecurityPolicyAttributes) (*models.VMMSecurityPolicy, error) {

@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateNexthopEpPReachability(nhAddr string, parent_dn string, description string, nameAlias string, ipNexthopEpPAttr models.NexthopEpPReachabilityAttributes) (*models.NexthopEpPReachability, error) {

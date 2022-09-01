@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/container"
 )
 
 const authPayload = `{

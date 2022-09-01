@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateSpineAccessPortSelector(spine_access_port_selector_type string, name string, spine_interface_profile string, description string, nameAlias string, infraSHPortSAttr models.SpineAccessPortSelectorAttributes) (*models.SpineAccessPortSelector, error) {

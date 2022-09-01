@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateFVDomain(tDn string, application_epg string, application_profile string, tenant string, description string, fvRsDomAttattr models.FVDomainAttributes) (*models.FVDomain, error) {

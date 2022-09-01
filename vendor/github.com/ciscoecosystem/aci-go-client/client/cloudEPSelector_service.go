@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateCloudEndpointSelector(name string, cloud_epg string, cloud_application_container string, tenant string, description string, cloudEPSelectorattr models.CloudEndpointSelectorAttributes) (*models.CloudEndpointSelector, error) {

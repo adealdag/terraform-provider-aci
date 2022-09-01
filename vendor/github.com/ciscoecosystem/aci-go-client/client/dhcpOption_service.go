@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateDHCPOption(name string, dhcp_option_policy string, tenant string, dhcpOptionattr models.DHCPOptionAttributes) (*models.DHCPOption, error) {

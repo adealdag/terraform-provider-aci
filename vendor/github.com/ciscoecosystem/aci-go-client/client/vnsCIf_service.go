@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateConcreteInterface(name string, parent_dn string, nameAlias string, vnsCIfAttr models.ConcreteInterfaceAttributes) (*models.ConcreteInterface, error) {

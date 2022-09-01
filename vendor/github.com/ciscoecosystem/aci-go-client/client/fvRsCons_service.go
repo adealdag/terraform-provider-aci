@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateContractConsumer(tnVzBrCPName string, application_epg string, application_profile string, tenant string, fvRsConsattr models.ContractConsumerAttributes) (*models.ContractConsumer, error) {

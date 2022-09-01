@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateOspfRouteSummarization(name string, tenant string, description string, ospfRtSummPolattr models.OspfRouteSummarizationAttributes) (*models.OspfRouteSummarization, error) {

@@ -3,7 +3,7 @@ package models
 import (
 	"strconv"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/container"
 )
 
 const MaintUpgJobClassName = "maintUpgJob"

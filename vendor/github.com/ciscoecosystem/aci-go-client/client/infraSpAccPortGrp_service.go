@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ciscoecosystem/aci-go-client/container"
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/container"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateSpineAccessPortPolicyGroup(name string, description string, infraSpAccPortGrpattr models.SpineAccessPortPolicyGroupAttributes) (*models.SpineAccessPortPolicyGroup, error) {

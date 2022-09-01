@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateMatchRuleBasedonCommunityRegularExpression(commType string, match_rule string, tenant string, description string, nameAlias string, rtctrlMatchCommRegexTermAttr models.MatchRuleBasedonCommunityRegularExpressionAttributes) (*models.MatchRuleBasedonCommunityRegularExpression, error) {

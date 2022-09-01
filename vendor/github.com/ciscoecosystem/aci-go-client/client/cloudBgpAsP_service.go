@@ -3,7 +3,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/ciscoecosystem/aci-go-client/models"
+	"github.com/adealdag/aci-go-client/models"
 )
 
 func (sm *ServiceManager) CreateAutonomousSystemProfile(description string, cloudBgpAsPattr models.AutonomousSystemProfileAttributes) (*models.AutonomousSystemProfile, error) {
